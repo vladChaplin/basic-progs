@@ -26,7 +26,7 @@ public class AlgorithmMiddleOfProduct {
         }
     }
 
-    private BigDecimal discardResult(String value) {
+    public BigDecimal discardResult(String value) {
         int startIndex = value.indexOf(".") + 1 +halfDigit;
         int endIndex = value.length() - halfDigit;
         final var templateIntZero = "0.";
